@@ -4,7 +4,7 @@ module TurboBridge
       attr_accessor :api_url, :account_id, :email, :password
 
       def api_url
-        "https://turbobridge.com/api/2.0/"
+        "https://api.turbobridge.com/2.0/"
       end
 
       def partner_id
